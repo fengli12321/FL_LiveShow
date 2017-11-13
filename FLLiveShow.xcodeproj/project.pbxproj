@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1209440C1F19CFB6003AED04 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1209440B1F19CFB6003AED04 /* IJKMediaFramework.framework */; };
+		120944131F19D385003AED04 /* FLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120944121F19D385003AED04 /* FLBaseViewController.m */; };
+		120944161F19D3BE003AED04 /* FLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120944151F19D3BE003AED04 /* FLMainViewController.m */; };
+		120944181F19D42C003AED04 /* FLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120944171F19D42C003AED04 /* FLMainViewController.xib */; };
+		120944201F19D808003AED04 /* FLLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1209441F1F19D808003AED04 /* FLLiveViewController.m */; };
+		120944231F19D9D1003AED04 /* FLLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 120944221F19D9D1003AED04 /* FLLivePreview.m */; };
+		120944251F19DA20003AED04 /* FLLivePreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120944241F19DA20003AED04 /* FLLivePreview.xib */; };
+		12D461CD1F284DD900507256 /* FLWatchLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D461CC1F284DD900507256 /* FLWatchLiveViewController.m */; };
+		12D461CF1F2856FC00507256 /* FLWatchLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D461CE1F2856FC00507256 /* FLWatchLiveViewController.xib */; };
+		12E8E2E01F276B1600AECF57 /* UIView+FLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8E2DF1F276B1600AECF57 /* UIView+FLLayer.m */; };
+		12E8E2E41F276C9B00AECF57 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8E2E31F276C9B00AECF57 /* UIView+Common.m */; };
+		12E8E2E71F2770F300AECF57 /* UIViewController+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8E2E61F2770F300AECF57 /* UIViewController+Common.m */; };
+		12FE09E61F19C1FD009871A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE09E51F19C1FD009871A4 /* main.m */; };
+		12FE09E91F19C1FD009871A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE09E81F19C1FD009871A4 /* AppDelegate.m */; };
+		12FE09EC1F19C1FD009871A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE09EB1F19C1FD009871A4 /* ViewController.m */; };
+		12FE09EF1F19C1FD009871A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FE09ED1F19C1FD009871A4 /* Main.storyboard */; };
+		12FE09F11F19C1FD009871A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FE09F01F19C1FD009871A4 /* Assets.xcassets */; };
+		12FE09F41F19C1FD009871A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FE09F21F19C1FD009871A4 /* LaunchScreen.storyboard */; };
+		12FE09FF1F19C1FD009871A4 /* FLLiveShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE09FE1F19C1FD009871A4 /* FLLiveShowTests.m */; };
+		12FE0A0A1F19C1FD009871A4 /* FLLiveShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FE0A091F19C1FD009871A4 /* FLLiveShowUITests.m */; };
+		466F5D63DF1E58B992C27A71 /* libPods-FLLiveShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5320C9DAD4E68E83944ADA /* libPods-FLLiveShow.a */; };
+		65212DE4CEBE480F58565270 /* libPods-FLLiveShowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B046147D4A9244A98BD0A609 /* libPods-FLLiveShowTests.a */; };
+		E3F1E82466B59CFF5539E1D3 /* libPods-FLLiveShowUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CC75A7155451DF09F24A62 /* libPods-FLLiveShowUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12FE09FB1F19C1FD009871A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12FE09D91F19C1FD009871A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12FE09E01F19C1FD009871A4;
+			remoteInfo = FLLiveShow;
+		};
+		12FE0A061F19C1FD009871A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12FE09D91F19C1FD009871A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12FE09E01F19C1FD009871A4;
+			remoteInfo = FLLiveShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF7EA6BE9DA61F5CAF4BB0C /* Pods-FLLiveShowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLLiveShowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLLiveShowUITests/Pods-FLLiveShowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1209440B1F19CFB6003AED04 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		120944111F19D385003AED04 /* FLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLBaseViewController.h; sourceTree = "<group>"; };
+		120944121F19D385003AED04 /* FLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLBaseViewController.m; sourceTree = "<group>"; };
+		120944141F19D3BE003AED04 /* FLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMainViewController.h; sourceTree = "<group>"; };
+		120944151F19D3BE003AED04 /* FLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMainViewController.m; sourceTree = "<group>"; };
+		120944171F19D42C003AED04 /* FLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMainViewController.xib; sourceTree = "<group>"; };
+		1209441E1F19D808003AED04 /* FLLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLiveViewController.h; sourceTree = "<group>"; };
+		1209441F1F19D808003AED04 /* FLLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLiveViewController.m; sourceTree = "<group>"; };
+		120944211F19D9D1003AED04 /* FLLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLLivePreview.h; sourceTree = "<group>"; };
+		120944221F19D9D1003AED04 /* FLLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLLivePreview.m; sourceTree = "<group>"; };
+		120944241F19DA20003AED04 /* FLLivePreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLLivePreview.xib; sourceTree = "<group>"; };
+		12D461CB1F284DD900507256 /* FLWatchLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLWatchLiveViewController.h; sourceTree = "<group>"; };
+		12D461CC1F284DD900507256 /* FLWatchLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLWatchLiveViewController.m; sourceTree = "<group>"; };
+		12D461CE1F2856FC00507256 /* FLWatchLiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLWatchLiveViewController.xib; sourceTree = "<group>"; };
+		12E8E2DE1F276B1600AECF57 /* UIView+FLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FLLayer.h"; sourceTree = "<group>"; };
+		12E8E2DF1F276B1600AECF57 /* UIView+FLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FLLayer.m"; sourceTree = "<group>"; };
+		12E8E2E11F276B6500AECF57 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		12E8E2E21F276C9B00AECF57 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		12E8E2E31F276C9B00AECF57 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		12E8E2E51F2770F300AECF57 /* UIViewController+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Common.h"; sourceTree = "<group>"; };
+		12E8E2E61F2770F300AECF57 /* UIViewController+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Common.m"; sourceTree = "<group>"; };
+		12FE09E11F19C1FD009871A4 /* FLLiveShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLLiveShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FE09E51F19C1FD009871A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12FE09E71F19C1FD009871A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12FE09E81F19C1FD009871A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12FE09EA1F19C1FD009871A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12FE09EB1F19C1FD009871A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12FE09EE1F19C1FD009871A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12FE09F01F19C1FD009871A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12FE09F31F19C1FD009871A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12FE09F51F19C1FD009871A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FE09FA1F19C1FD009871A4 /* FLLiveShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLLiveShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FE09FE1F19C1FD009871A4 /* FLLiveShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLLiveShowTests.m; sourceTree = "<group>"; };
+		12FE0A001F19C1FD009871A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FE0A051F19C1FD009871A4 /* FLLiveShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLLiveShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FE0A091F19C1FD009871A4 /* FLLiveShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLLiveShowUITests.m; sourceTree = "<group>"; };
+		12FE0A0B1F19C1FD009871A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38AD7F6C67405CD6F88654FC /* Pods-FLLiveShowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLLiveShowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLLiveShowUITests/Pods-FLLiveShowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		630F6B14DF2D424B45DF3613 /* Pods-FLLiveShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLLiveShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLLiveShow/Pods-FLLiveShow.release.xcconfig"; sourceTree = "<group>"; };
+		8F17054104D18E136E97961C /* Pods-FLLiveShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLLiveShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLLiveShow/Pods-FLLiveShow.debug.xcconfig"; sourceTree = "<group>"; };
+		B046147D4A9244A98BD0A609 /* libPods-FLLiveShowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLLiveShowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30D03D778276DFC190C632B /* Pods-FLLiveShowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLLiveShowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLLiveShowTests/Pods-FLLiveShowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE0C5DE0E3938367D4DE750 /* Pods-FLLiveShowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLLiveShowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLLiveShowTests/Pods-FLLiveShowTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3CC75A7155451DF09F24A62 /* libPods-FLLiveShowUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLLiveShowUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5320C9DAD4E68E83944ADA /* libPods-FLLiveShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLLiveShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12FE09DE1F19C1FD009871A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466F5D63DF1E58B992C27A71 /* libPods-FLLiveShow.a in Frameworks */,
+				1209440C1F19CFB6003AED04 /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FE09F71F19C1FD009871A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65212DE4CEBE480F58565270 /* libPods-FLLiveShowTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FE0A021F19C1FD009871A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F1E82466B59CFF5539E1D3 /* libPods-FLLiveShowUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1209440E1F19D353003AED04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				120944111F19D385003AED04 /* FLBaseViewController.h */,
+				120944121F19D385003AED04 /* FLBaseViewController.m */,
+				120944141F19D3BE003AED04 /* FLMainViewController.h */,
+				120944151F19D3BE003AED04 /* FLMainViewController.m */,
+				120944171F19D42C003AED04 /* FLMainViewController.xib */,
+				1209441E1F19D808003AED04 /* FLLiveViewController.h */,
+				1209441F1F19D808003AED04 /* FLLiveViewController.m */,
+				12D461CB1F284DD900507256 /* FLWatchLiveViewController.h */,
+				12D461CC1F284DD900507256 /* FLWatchLiveViewController.m */,
+				12D461CE1F2856FC00507256 /* FLWatchLiveViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1209440F1F19D353003AED04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		120944101F19D353003AED04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				120944211F19D9D1003AED04 /* FLLivePreview.h */,
+				120944221F19D9D1003AED04 /* FLLivePreview.m */,
+				120944241F19DA20003AED04 /* FLLivePreview.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12E8E2DC1F276AEE00AECF57 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				12E8E2DD1F276AEE00AECF57 /* Category */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		12E8E2DD1F276AEE00AECF57 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				12E8E2E51F2770F300AECF57 /* UIViewController+Common.h */,
+				12E8E2E61F2770F300AECF57 /* UIViewController+Common.m */,
+				12E8E2E21F276C9B00AECF57 /* UIView+Common.h */,
+				12E8E2E31F276C9B00AECF57 /* UIView+Common.m */,
+				12E8E2DE1F276B1600AECF57 /* UIView+FLLayer.h */,
+				12E8E2DF1F276B1600AECF57 /* UIView+FLLayer.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		12FE09D81F19C1FD009871A4 = {
+			isa = PBXGroup;
+			children = (
+				12FE09E31F19C1FD009871A4 /* FLLiveShow */,
+				12FE09FD1F19C1FD009871A4 /* FLLiveShowTests */,
+				12FE0A081F19C1FD009871A4 /* FLLiveShowUITests */,
+				12FE09E21F19C1FD009871A4 /* Products */,
+				9218254C209AC50BBE816AC8 /* Pods */,
+				967C589B5DC414D12A88CF95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12FE09E21F19C1FD009871A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12FE09E11F19C1FD009871A4 /* FLLiveShow.app */,
+				12FE09FA1F19C1FD009871A4 /* FLLiveShowTests.xctest */,
+				12FE0A051F19C1FD009871A4 /* FLLiveShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12FE09E31F19C1FD009871A4 /* FLLiveShow */ = {
+			isa = PBXGroup;
+			children = (
+				12FE09E71F19C1FD009871A4 /* AppDelegate.h */,
+				12FE09E81F19C1FD009871A4 /* AppDelegate.m */,
+				12FE09EA1F19C1FD009871A4 /* ViewController.h */,
+				12FE09EB1F19C1FD009871A4 /* ViewController.m */,
+				12FE09ED1F19C1FD009871A4 /* Main.storyboard */,
+				12FE09F01F19C1FD009871A4 /* Assets.xcassets */,
+				12FE09F21F19C1FD009871A4 /* LaunchScreen.storyboard */,
+				12FE09F51F19C1FD009871A4 /* Info.plist */,
+				12E8E2E11F276B6500AECF57 /* PrefixHeader.pch */,
+				1209440E1F19D353003AED04 /* Controller */,
+				1209440F1F19D353003AED04 /* Model */,
+				120944101F19D353003AED04 /* View */,
+				12E8E2DC1F276AEE00AECF57 /* Util */,
+				12FE09E41F19C1FD009871A4 /* Supporting Files */,
+			);
+			path = FLLiveShow;
+			sourceTree = "<group>";
+		};
+		12FE09E41F19C1FD009871A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12FE09E51F19C1FD009871A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12FE09FD1F19C1FD009871A4 /* FLLiveShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				12FE09FE1F19C1FD009871A4 /* FLLiveShowTests.m */,
+				12FE0A001F19C1FD009871A4 /* Info.plist */,
+			);
+			path = FLLiveShowTests;
+			sourceTree = "<group>";
+		};
+		12FE0A081F19C1FD009871A4 /* FLLiveShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12FE0A091F19C1FD009871A4 /* FLLiveShowUITests.m */,
+				12FE0A0B1F19C1FD009871A4 /* Info.plist */,
+			);
+			path = FLLiveShowUITests;
+			sourceTree = "<group>";
+		};
+		9218254C209AC50BBE816AC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F17054104D18E136E97961C /* Pods-FLLiveShow.debug.xcconfig */,
+				630F6B14DF2D424B45DF3613 /* Pods-FLLiveShow.release.xcconfig */,
+				B30D03D778276DFC190C632B /* Pods-FLLiveShowTests.debug.xcconfig */,
+				BBE0C5DE0E3938367D4DE750 /* Pods-FLLiveShowTests.release.xcconfig */,
+				38AD7F6C67405CD6F88654FC /* Pods-FLLiveShowUITests.debug.xcconfig */,
+				0FF7EA6BE9DA61F5CAF4BB0C /* Pods-FLLiveShowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		967C589B5DC414D12A88CF95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1209440B1F19CFB6003AED04 /* IJKMediaFramework.framework */,
+				EB5320C9DAD4E68E83944ADA /* libPods-FLLiveShow.a */,
+				B046147D4A9244A98BD0A609 /* libPods-FLLiveShowTests.a */,
+				C3CC75A7155451DF09F24A62 /* libPods-FLLiveShowUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12FE09E01F19C1FD009871A4 /* FLLiveShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FE0A0E1F19C1FD009871A4 /* Build configuration list for PBXNativeTarget "FLLiveShow" */;
+			buildPhases = (
+				D1444920A56CD95588B2FC8D /* [CP] Check Pods Manifest.lock */,
+				12FE09DD1F19C1FD009871A4 /* Sources */,
+				12FE09DE1F19C1FD009871A4 /* Frameworks */,
+				12FE09DF1F19C1FD009871A4 /* Resources */,
+				BCD007275DF36EA8695AC9D1 /* [CP] Embed Pods Frameworks */,
+				9FFC5C33A7F23A6510E53EAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLLiveShow;
+			productName = FLLiveShow;
+			productReference = 12FE09E11F19C1FD009871A4 /* FLLiveShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12FE09F91F19C1FD009871A4 /* FLLiveShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FE0A111F19C1FD009871A4 /* Build configuration list for PBXNativeTarget "FLLiveShowTests" */;
+			buildPhases = (
+				5AA1D6B0F553B8091CCDC692 /* [CP] Check Pods Manifest.lock */,
+				12FE09F61F19C1FD009871A4 /* Sources */,
+				12FE09F71F19C1FD009871A4 /* Frameworks */,
+				12FE09F81F19C1FD009871A4 /* Resources */,
+				07C953629FE0C539E7C75B6D /* [CP] Embed Pods Frameworks */,
+				F05962515F697AC15B25BBD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12FE09FC1F19C1FD009871A4 /* PBXTargetDependency */,
+			);
+			name = FLLiveShowTests;
+			productName = FLLiveShowTests;
+			productReference = 12FE09FA1F19C1FD009871A4 /* FLLiveShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12FE0A041F19C1FD009871A4 /* FLLiveShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FE0A141F19C1FD009871A4 /* Build configuration list for PBXNativeTarget "FLLiveShowUITests" */;
+			buildPhases = (
+				A904D563E83FCE5902401079 /* [CP] Check Pods Manifest.lock */,
+				12FE0A011F19C1FD009871A4 /* Sources */,
+				12FE0A021F19C1FD009871A4 /* Frameworks */,
+				12FE0A031F19C1FD009871A4 /* Resources */,
+				C028ADFAB8A234D206839F84 /* [CP] Embed Pods Frameworks */,
+				E4DCDBDD3BCB34F7F5B24E8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12FE0A071F19C1FD009871A4 /* PBXTargetDependency */,
+			);
+			name = FLLiveShowUITests;
+			productName = FLLiveShowUITests;
+			productReference = 12FE0A051F19C1FD009871A4 /* FLLiveShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12FE09D91F19C1FD009871A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FL;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "冯里";
+				TargetAttributes = {
+					12FE09E01F19C1FD009871A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6625VD7T97;
+						ProvisioningStyle = Automatic;
+					};
+					12FE09F91F19C1FD009871A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6625VD7T97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12FE09E01F19C1FD009871A4;
+					};
+					12FE0A041F19C1FD009871A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6625VD7T97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12FE09E01F19C1FD009871A4;
+					};
+				};
+			};
+			buildConfigurationList = 12FE09DC1F19C1FD009871A4 /* Build configuration list for PBXProject "FLLiveShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12FE09D81F19C1FD009871A4;
+			productRefGroup = 12FE09E21F19C1FD009871A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12FE09E01F19C1FD009871A4 /* FLLiveShow */,
+				12FE09F91F19C1FD009871A4 /* FLLiveShowTests */,
+				12FE0A041F19C1FD009871A4 /* FLLiveShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12FE09DF1F19C1FD009871A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FE09F41F19C1FD009871A4 /* LaunchScreen.storyboard in Resources */,
+				12FE09F11F19C1FD009871A4 /* Assets.xcassets in Resources */,
+				12FE09EF1F19C1FD009871A4 /* Main.storyboard in Resources */,
+				120944181F19D42C003AED04 /* FLMainViewController.xib in Resources */,
+				12D461CF1F2856FC00507256 /* FLWatchLiveViewController.xib in Resources */,
+				120944251F19DA20003AED04 /* FLLivePreview.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FE09F81F19C1FD009871A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FE0A031F19C1FD009871A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C953629FE0C539E7C75B6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLLiveShowTests/Pods-FLLiveShowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AA1D6B0F553B8091CCDC692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFC5C33A7F23A6510E53EAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLLiveShow/Pods-FLLiveShow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A904D563E83FCE5902401079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD007275DF36EA8695AC9D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLLiveShow/Pods-FLLiveShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C028ADFAB8A234D206839F84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLLiveShowUITests/Pods-FLLiveShowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1444920A56CD95588B2FC8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4DCDBDD3BCB34F7F5B24E8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLLiveShowUITests/Pods-FLLiveShowUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05962515F697AC15B25BBD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLLiveShowTests/Pods-FLLiveShowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12FE09DD1F19C1FD009871A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120944161F19D3BE003AED04 /* FLMainViewController.m in Sources */,
+				12E8E2E41F276C9B00AECF57 /* UIView+Common.m in Sources */,
+				12FE09EC1F19C1FD009871A4 /* ViewController.m in Sources */,
+				12D461CD1F284DD900507256 /* FLWatchLiveViewController.m in Sources */,
+				12E8E2E71F2770F300AECF57 /* UIViewController+Common.m in Sources */,
+				120944201F19D808003AED04 /* FLLiveViewController.m in Sources */,
+				120944131F19D385003AED04 /* FLBaseViewController.m in Sources */,
+				12FE09E91F19C1FD009871A4 /* AppDelegate.m in Sources */,
+				12FE09E61F19C1FD009871A4 /* main.m in Sources */,
+				12E8E2E01F276B1600AECF57 /* UIView+FLLayer.m in Sources */,
+				120944231F19D9D1003AED04 /* FLLivePreview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FE09F61F19C1FD009871A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FE09FF1F19C1FD009871A4 /* FLLiveShowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FE0A011F19C1FD009871A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FE0A0A1F19C1FD009871A4 /* FLLiveShowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12FE09FC1F19C1FD009871A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12FE09E01F19C1FD009871A4 /* FLLiveShow */;
+			targetProxy = 12FE09FB1F19C1FD009871A4 /* PBXContainerItemProxy */;
+		};
+		12FE0A071F19C1FD009871A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12FE09E01F19C1FD009871A4 /* FLLiveShow */;
+			targetProxy = 12FE0A061F19C1FD009871A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12FE09ED1F19C1FD009871A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FE09EE1F19C1FD009871A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12FE09F21F19C1FD009871A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FE09F31F19C1FD009871A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12FE0A0C1F19C1FD009871A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12FE0A0D1F19C1FD009871A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12FE0A0F1F19C1FD009871A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F17054104D18E136E97961C /* Pods-FLLiveShow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6625VD7T97;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = FLLiveShow/PrefixHeader.pch;
+				INFOPLIST_FILE = FLLiveShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoxPower.FLLiveShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12FE0A101F19C1FD009871A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630F6B14DF2D424B45DF3613 /* Pods-FLLiveShow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6625VD7T97;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = FLLiveShow/PrefixHeader.pch;
+				INFOPLIST_FILE = FLLiveShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoxPower.FLLiveShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12FE0A121F19C1FD009871A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30D03D778276DFC190C632B /* Pods-FLLiveShowTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6625VD7T97;
+				INFOPLIST_FILE = FLLiveShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoxPower.FLLiveShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLLiveShow.app/FLLiveShow";
+			};
+			name = Debug;
+		};
+		12FE0A131F19C1FD009871A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE0C5DE0E3938367D4DE750 /* Pods-FLLiveShowTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6625VD7T97;
+				INFOPLIST_FILE = FLLiveShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoxPower.FLLiveShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLLiveShow.app/FLLiveShow";
+			};
+			name = Release;
+		};
+		12FE0A151F19C1FD009871A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AD7F6C67405CD6F88654FC /* Pods-FLLiveShowUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6625VD7T97;
+				INFOPLIST_FILE = FLLiveShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoxPower.FLLiveShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLLiveShow;
+			};
+			name = Debug;
+		};
+		12FE0A161F19C1FD009871A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF7EA6BE9DA61F5CAF4BB0C /* Pods-FLLiveShowUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6625VD7T97;
+				INFOPLIST_FILE = FLLiveShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoxPower.FLLiveShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLLiveShow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12FE09DC1F19C1FD009871A4 /* Build configuration list for PBXProject "FLLiveShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FE0A0C1F19C1FD009871A4 /* Debug */,
+				12FE0A0D1F19C1FD009871A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FE0A0E1F19C1FD009871A4 /* Build configuration list for PBXNativeTarget "FLLiveShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FE0A0F1F19C1FD009871A4 /* Debug */,
+				12FE0A101F19C1FD009871A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FE0A111F19C1FD009871A4 /* Build configuration list for PBXNativeTarget "FLLiveShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FE0A121F19C1FD009871A4 /* Debug */,
+				12FE0A131F19C1FD009871A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FE0A141F19C1FD009871A4 /* Build configuration list for PBXNativeTarget "FLLiveShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FE0A151F19C1FD009871A4 /* Debug */,
+				12FE0A161F19C1FD009871A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12FE09D91F19C1FD009871A4 /* Project object */;
+}

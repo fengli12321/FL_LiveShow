@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FLLivePreview">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IgE-Ir-hkl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gem" translatesAutoresizingMaskIntoConstraints="NO" id="hy8-cV-V5q">
+                            <rect key="frame" x="16" y="24" width="64" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="64" id="3VH-6K-4tT"/>
+                                <constraint firstAttribute="height" constant="64" id="ewY-4c-Lie"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxx的直播间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecc-YN-KTm">
+                            <rect key="frame" x="84" y="24" width="79" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="1" green="0.56460050602781631" blue="0.46962429757191837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未连接" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPw-3f-fh8">
+                            <rect key="frame" x="84" y="71" width="43" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="1" green="0.56460050602781631" blue="0.46962429757191837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GJ-RM-SKY">
+                            <rect key="frame" x="279" y="20" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="12v-Hj-LwR"/>
+                                <constraint firstAttribute="width" constant="44" id="TGO-tG-BNO"/>
+                            </constraints>
+                            <state key="normal" image="camra_beauty_close"/>
+                            <state key="selected" image="camra_beauty"/>
+                            <connections>
+                                <action selector="beautify:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vrq-gO-qQC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8GE-yo-iF7">
+                            <rect key="frame" x="327" y="24" width="44" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="KSu-Aw-dRI"/>
+                                <constraint firstAttribute="height" constant="36" id="yjZ-2w-tMI"/>
+                            </constraints>
+                            <state key="normal" image="live_preview_camera"/>
+                            <connections>
+                                <action selector="cameraDirection:" destination="iN0-l3-epB" eventType="touchUpInside" id="9TA-nv-icB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHE-gS-vOF">
+                            <rect key="frame" x="327" y="64" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="Azi-1r-DeN"/>
+                                <constraint firstAttribute="height" constant="44" id="xRe-Jv-kAH"/>
+                            </constraints>
+                            <state key="normal" image="newbarcode_light_off"/>
+                            <state key="selected" image="newbarcode_light_on"/>
+                            <connections>
+                                <action selector="lightSwitch:" destination="iN0-l3-epB" eventType="touchUpInside" id="Gop-Iq-KPc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igV-wJ-jXh">
+                            <rect key="frame" x="327" y="112" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="fiE-A9-i9c"/>
+                                <constraint firstAttribute="height" constant="44" id="pT9-ix-N48"/>
+                            </constraints>
+                            <state key="normal" image="mirror"/>
+                            <connections>
+                                <action selector="mirroSwitch:" destination="iN0-l3-epB" eventType="touchUpInside" id="WU1-vM-9lh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iG-sm-OHP">
+                            <rect key="frame" x="16" y="607" width="343" height="44"/>
+                            <color key="backgroundColor" red="0.21960784310000001" green="0.65098039220000004" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="3kM-Dh-LfD"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="p0z-pS-Teh"/>
+                            </constraints>
+                            <state key="normal" title="开始直播"/>
+                            <connections>
+                                <action selector="startOrEndLive:" destination="iN0-l3-epB" eventType="touchUpInside" id="lXh-YD-AW0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBG-mx-V4c">
+                            <rect key="frame" x="16" y="543" width="343" height="44"/>
+                            <color key="backgroundColor" red="1" green="0.069748602085306866" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="nTE-Kw-wkb"/>
+                                <constraint firstAttribute="height" constant="44" id="wUM-jr-N7h"/>
+                            </constraints>
+                            <state key="normal" title="退出直播"/>
+                            <connections>
+                                <action selector="exitLiveShow:" destination="iN0-l3-epB" eventType="touchUpInside" id="J27-wP-n8x"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.39724821827131596" green="0.41977007772020725" blue="0.32340283979179518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="cHE-gS-vOF" firstAttribute="top" secondItem="8GE-yo-iF7" secondAttribute="bottom" constant="4" id="4uA-rm-fbC"/>
+                        <constraint firstItem="Ecc-YN-KTm" firstAttribute="top" secondItem="hy8-cV-V5q" secondAttribute="top" id="5vI-ah-7LP"/>
+                        <constraint firstAttribute="bottom" secondItem="6iG-sm-OHP" secondAttribute="bottom" constant="16" id="Bxc-u7-mzY"/>
+                        <constraint firstItem="8GE-yo-iF7" firstAttribute="centerX" secondItem="igV-wJ-jXh" secondAttribute="centerX" id="HQF-pL-O9i"/>
+                        <constraint firstItem="8GE-yo-iF7" firstAttribute="top" secondItem="IgE-Ir-hkl" secondAttribute="top" constant="24" id="Hg1-lt-LRd"/>
+                        <constraint firstItem="6iG-sm-OHP" firstAttribute="width" secondItem="GBG-mx-V4c" secondAttribute="width" id="JSR-y5-eH8"/>
+                        <constraint firstItem="hy8-cV-V5q" firstAttribute="top" secondItem="IgE-Ir-hkl" secondAttribute="top" constant="24" id="JsO-Ku-paG"/>
+                        <constraint firstItem="Ecc-YN-KTm" firstAttribute="leading" secondItem="hy8-cV-V5q" secondAttribute="trailing" constant="4" id="La3-Ec-h3G"/>
+                        <constraint firstItem="iPw-3f-fh8" firstAttribute="leading" secondItem="Ecc-YN-KTm" secondAttribute="leading" id="LfM-Jt-eat"/>
+                        <constraint firstItem="cHE-gS-vOF" firstAttribute="centerX" secondItem="igV-wJ-jXh" secondAttribute="centerX" id="Sdk-VZ-nUE"/>
+                        <constraint firstItem="8GE-yo-iF7" firstAttribute="leading" secondItem="0GJ-RM-SKY" secondAttribute="trailing" constant="4" id="TcT-Vp-9aX"/>
+                        <constraint firstItem="8GE-yo-iF7" firstAttribute="centerY" secondItem="0GJ-RM-SKY" secondAttribute="centerY" id="Vd2-La-mid"/>
+                        <constraint firstItem="hy8-cV-V5q" firstAttribute="leading" secondItem="IgE-Ir-hkl" secondAttribute="leading" constant="16" id="Yzf-wo-lEC"/>
+                        <constraint firstItem="6iG-sm-OHP" firstAttribute="leading" secondItem="IgE-Ir-hkl" secondAttribute="leading" constant="16" id="aAR-Pt-dYD"/>
+                        <constraint firstItem="6iG-sm-OHP" firstAttribute="centerX" secondItem="GBG-mx-V4c" secondAttribute="centerX" id="dSU-8K-Ncd"/>
+                        <constraint firstItem="6iG-sm-OHP" firstAttribute="top" secondItem="GBG-mx-V4c" secondAttribute="bottom" constant="20" id="myD-1w-0gj"/>
+                        <constraint firstAttribute="trailing" secondItem="6iG-sm-OHP" secondAttribute="trailing" constant="16" id="oF6-xd-ocz"/>
+                        <constraint firstItem="igV-wJ-jXh" firstAttribute="top" secondItem="cHE-gS-vOF" secondAttribute="bottom" constant="4" id="qX9-fe-cXt"/>
+                        <constraint firstItem="6iG-sm-OHP" firstAttribute="height" secondItem="GBG-mx-V4c" secondAttribute="height" id="qlu-Bb-eqP"/>
+                        <constraint firstAttribute="trailing" secondItem="8GE-yo-iF7" secondAttribute="trailing" constant="4" id="rbU-ux-fr8"/>
+                        <constraint firstItem="iPw-3f-fh8" firstAttribute="bottom" secondItem="hy8-cV-V5q" secondAttribute="bottom" id="z2l-TC-Z5t"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.99043508466606833" green="1" blue="0.93966490343643594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="IgE-Ir-hkl" secondAttribute="bottom" id="7T4-2e-lpb"/>
+                <constraint firstItem="IgE-Ir-hkl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bNj-AP-YBZ"/>
+                <constraint firstAttribute="trailing" secondItem="IgE-Ir-hkl" secondAttribute="trailing" id="isI-ev-oEJ"/>
+                <constraint firstItem="IgE-Ir-hkl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mrk-2K-Pe3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="beautyBtn" destination="0GJ-RM-SKY" id="vzk-YV-try"/>
+                <outlet property="cameraBtn" destination="8GE-yo-iF7" id="bp5-R2-6s2"/>
+                <outlet property="exitBtn" destination="GBG-mx-V4c" id="bv4-GY-X1T"/>
+                <outlet property="iconImageView" destination="hy8-cV-V5q" id="adi-Q6-IXQ"/>
+                <outlet property="lightBtn" destination="cHE-gS-vOF" id="jRE-Fp-2Cx"/>
+                <outlet property="liveStatusLabel" destination="iPw-3f-fh8" id="X4n-62-ExS"/>
+                <outlet property="mirrorBtn" destination="igV-wJ-jXh" id="x36-c2-7vM"/>
+                <outlet property="overlayView" destination="IgE-Ir-hkl" id="gdF-0x-Br4"/>
+                <outlet property="startLiveBtn" destination="6iG-sm-OHP" id="kMW-cK-URo"/>
+                <outlet property="titleLabel" destination="Ecc-YN-KTm" id="j9e-AZ-oUM"/>
+            </connections>
+            <point key="canvasLocation" x="117.5" y="44.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camra_beauty" width="23" height="23"/>
+        <image name="camra_beauty_close" width="25" height="23"/>
+        <image name="gem" width="450" height="450"/>
+        <image name="live_preview_camera" width="88" height="72"/>
+        <image name="mirror" width="32" height="32"/>
+        <image name="newbarcode_light_off" width="30" height="30"/>
+        <image name="newbarcode_light_on" width="30" height="30"/>
+    </resources>
+</document>

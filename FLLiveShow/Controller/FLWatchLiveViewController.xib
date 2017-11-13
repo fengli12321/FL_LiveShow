@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FLWatchLiveViewController">
+            <connections>
+                <outlet property="exitBtn" destination="S2o-mD-LAA" id="dKa-yt-Zro"/>
+                <outlet property="playerView" destination="HjK-1t-mMs" id="oaN-Ma-BMa"/>
+                <outlet property="view" destination="iN0-l3-epB" id="gIW-bS-apO"/>
+                <outlet property="watchBtn" destination="VJf-dO-2kv" id="Y7Q-4T-YSo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HjK-1t-mMs">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJf-dO-2kv">
+                            <rect key="frame" x="16" y="607" width="343" height="40"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="T23-2O-RhA"/>
+                            </constraints>
+                            <state key="normal" title="开始观看"/>
+                            <state key="selected" title="停止观看"/>
+                            <connections>
+                                <action selector="watchAction:" destination="-1" eventType="touchUpInside" id="WgQ-nk-4rO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2o-mD-LAA">
+                            <rect key="frame" x="16" y="547" width="343" height="40"/>
+                            <color key="backgroundColor" red="1" green="0.091319580489999996" blue="0.086543088719999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="7el-wL-QXQ"/>
+                            </constraints>
+                            <state key="normal" title="退        出"/>
+                            <state key="selected" title="停止观看"/>
+                            <connections>
+                                <action selector="exit:" destination="-1" eventType="touchUpInside" id="pGx-Vr-LM7"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstItem="VJf-dO-2kv" firstAttribute="height" secondItem="S2o-mD-LAA" secondAttribute="height" id="CRc-Rk-XUG"/>
+                        <constraint firstItem="VJf-dO-2kv" firstAttribute="top" secondItem="S2o-mD-LAA" secondAttribute="bottom" constant="20" id="Eyt-f6-jPK"/>
+                        <constraint firstItem="VJf-dO-2kv" firstAttribute="width" secondItem="S2o-mD-LAA" secondAttribute="width" id="JuI-AD-ckF"/>
+                        <constraint firstAttribute="trailing" secondItem="VJf-dO-2kv" secondAttribute="trailing" constant="16" id="TgQ-Rs-JHa"/>
+                        <constraint firstItem="VJf-dO-2kv" firstAttribute="centerX" secondItem="S2o-mD-LAA" secondAttribute="centerX" id="jAW-RY-ogj"/>
+                        <constraint firstAttribute="bottom" secondItem="VJf-dO-2kv" secondAttribute="bottom" constant="20" id="oWn-rf-tmV"/>
+                        <constraint firstItem="VJf-dO-2kv" firstAttribute="leading" secondItem="HjK-1t-mMs" secondAttribute="leading" constant="16" id="tcG-aH-lmM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HjK-1t-mMs" secondAttribute="trailing" id="1Lr-ee-iTh"/>
+                <constraint firstItem="HjK-1t-mMs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1QS-Nj-QWf"/>
+                <constraint firstItem="HjK-1t-mMs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aKz-Kn-DZe"/>
+                <constraint firstAttribute="bottom" secondItem="HjK-1t-mMs" secondAttribute="bottom" id="wKx-Qw-gD1"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

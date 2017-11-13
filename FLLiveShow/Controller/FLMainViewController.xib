@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FLMainViewController">
+            <connections>
+                <outlet property="startLiveBtn" destination="t8X-u3-9QW" id="4Ii-HH-1qm"/>
+                <outlet property="view" destination="iN0-l3-epB" id="NE7-fp-viM"/>
+                <outlet property="watchLiveBtn" destination="x8w-nJ-r6f" id="pnh-oy-VHK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FLLiveShow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jay-Uw-Bur">
+                    <rect key="frame" x="30" y="70" width="260" height="54"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8X-u3-9QW">
+                    <rect key="frame" x="85" y="318" width="150" height="50"/>
+                    <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="oFi-r9-euz"/>
+                        <constraint firstAttribute="height" constant="50" id="ywy-at-UcM"/>
+                    </constraints>
+                    <state key="normal" title="开始直播">
+                        <color key="titleColor" red="0.070899449480000001" green="0.070899449480000001" blue="0.070899449480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="startLive:" destination="-1" eventType="touchUpInside" id="AXi-vH-6l5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8w-nJ-r6f">
+                    <rect key="frame" x="85" y="418" width="150" height="50"/>
+                    <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="观看直播">
+                        <color key="titleColor" red="0.070899449480000001" green="0.070899449480000001" blue="0.070899449480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="watchLive:" destination="-1" eventType="touchUpInside" id="guz-eu-ecz"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.070899449481865329" green="0.070899449481865329" blue="0.070899449481865329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="t8X-u3-9QW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="0qU-s7-I3O"/>
+                <constraint firstItem="Jay-Uw-Bur" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="4cH-Fm-3ef"/>
+                <constraint firstItem="x8w-nJ-r6f" firstAttribute="top" secondItem="t8X-u3-9QW" secondAttribute="bottom" constant="50" id="FWk-8g-75Z"/>
+                <constraint firstItem="x8w-nJ-r6f" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="IZM-Nt-5E6"/>
+                <constraint firstItem="Jay-Uw-Bur" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="70" id="VQ1-Pl-qwq"/>
+                <constraint firstItem="Jay-Uw-Bur" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eDM-WM-K6I"/>
+                <constraint firstAttribute="bottom" secondItem="x8w-nJ-r6f" secondAttribute="bottom" constant="100" id="jYV-ao-vgi"/>
+                <constraint firstItem="x8w-nJ-r6f" firstAttribute="height" secondItem="t8X-u3-9QW" secondAttribute="height" id="mMI-fz-6qi"/>
+                <constraint firstItem="x8w-nJ-r6f" firstAttribute="width" secondItem="t8X-u3-9QW" secondAttribute="width" id="p2X-Dj-YmY"/>
+            </constraints>
+            <point key="canvasLocation" x="53.5" y="48.5"/>
+        </view>
+    </objects>
+</document>
